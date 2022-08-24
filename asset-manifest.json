@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/travel-with-catherine/static/css/main.f41c26b1.css",
-    "main.js": "/travel-with-catherine/static/js/main.2684130e.js",
+    "main.css": "/travel-with-catherine/static/css/main.2f711aa3.css",
+    "main.js": "/travel-with-catherine/static/js/main.2c42d0a1.js",
     "static/js/787.19707d57.chunk.js": "/travel-with-catherine/static/js/787.19707d57.chunk.js",
     "static/media/image-71.jpeg": "/travel-with-catherine/static/media/image-71.e8dc62db62fea1fb6a9e.jpeg",
     "static/media/image-72.jpeg": "/travel-with-catherine/static/media/image-72.2cbd562d3d1c3f012238.jpeg",
@@ -134,12 +134,12 @@
     "static/media/image-6.jpeg": "/travel-with-catherine/static/media/image-6.43187bda03709cc4746f.jpeg",
     "static/media/image-5.jpeg": "/travel-with-catherine/static/media/image-5.6331ec8910d0b5c22ef0.jpeg",
     "index.html": "/travel-with-catherine/index.html",
-    "main.f41c26b1.css.map": "/travel-with-catherine/static/css/main.f41c26b1.css.map",
-    "main.2684130e.js.map": "/travel-with-catherine/static/js/main.2684130e.js.map",
+    "main.2f711aa3.css.map": "/travel-with-catherine/static/css/main.2f711aa3.css.map",
+    "main.2c42d0a1.js.map": "/travel-with-catherine/static/js/main.2c42d0a1.js.map",
     "787.19707d57.chunk.js.map": "/travel-with-catherine/static/js/787.19707d57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f41c26b1.css",
-    "static/js/main.2684130e.js"
+    "static/css/main.2f711aa3.css",
+    "static/js/main.2c42d0a1.js"
   ]
 }
