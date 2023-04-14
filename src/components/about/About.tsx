@@ -1,7 +1,7 @@
-import ImgOne from '../../assets/images/gallery/image-29.jpeg'
-import ImgTwo from '../../assets/images/gallery/image-59.jpeg'
-import ImgThree from '../../assets/images/gallery/image-79.jpeg'
-import ImgFour from '../../assets/images/gallery/image-99.jpeg'
+import ImgOne from '../../assets/images/gallery/image-29.jpg'
+import ImgTwo from '../../assets/images/gallery/image-59.jpg'
+import ImgThree from '../../assets/images/gallery/image-53.jpg'
+import ImgFour from '../../assets/images/gallery/image-19.jpg'
 
 const About = () => {
   return (
@@ -9,27 +9,10 @@ const About = () => {
       <section className="flex flex-col items-center mt-10 text-2xl gap-5 text-slate-600">
         <h2 className="text-5xl text-center uppercase text-black">About</h2>
         <p className="text-base  sm:text-lg ">
-          Georgia is a country located in the Caucasus region of Eurasia. It is
-          bordered by Russia to the north and northeast, Turkey and Armenia to
-          the south, and Azerbaijan to the east. The capital and largest city of
-          Georgia is Tbilisi. The official language is Georgian and the currency
-          is the Lari. Georgia has a rich cultural heritage, with a history that
-          dates back over 3,000 years. The country is known for its traditional
-          music, dance, and cuisine, as well as its ancient Christian churches
-          and monasteries.
-          The country is also known for its wine-making
-          traditions which are ancient, and wine culture is an important part of
-          Georgian culture. Georgia has a semi-presidential representative
-          democratic republic form of government. The President of Georgia is
-          the head of state and the Prime Minister is the head of government.
-          The country has a unicameral parliament called the Sakartvelos
-          Parlamenti. Georgia has a diverse landscape that ranges from the snowy
-          peaks of the Greater Caucasus Mountains to the subtropical Black Sea
-          coast. 
-          The country has a diverse range of flora and fauna, including
-          many endemic species. It's also well-known for its mineral water
-          springs, and is a popular destination for tourists looking for hiking,
-          skiing, and other outdoor activities.
+        Harshith Godishala is a talented photographer hailing from the vibrant city of Hyderabad, India. With a keen eye for detail and a passion for capturing moments that tell a story, Harshith has established himself as a renowned photographer in the photography industry.
+        With a deep-rooted love for photography from a young age, Harshith's journey as a photographer has been nothing short of extraordinary. He has honed his craft over the years, capturing a diverse range of subjects with his unique artistic perspective. From breathtaking landscapes and stunning cityscapes to mesmerizing portraits and captivating street photography, Harshith's portfolio is a testament to his skill and creativity.
+        As a true artist, Harshith believes that every photograph is an opportunity to create something extraordinary. He meticulously plans every photoshoot, paying attention to lighting, composition, and other crucial elements to ensure that each image captures the essence of the moment. His dedication and unwavering commitment to excellence have earned him a loyal clientele who trust him to immortalize their precious memories through his lens.
+        Harshith's work has been widely recognized and appreciated, earning him numerous accolades and awards. He has also been featured in renowned publications and exhibited his work in prestigious galleries, further establishing his reputation as a top-notch photographer.
         </p>
       </section>
       <section className="flex flex-col sm:flex-row gap-1 p-8 ">
@@ -37,33 +20,33 @@ const About = () => {
           <img
             className="max-w-full w-56 h-52 object-cover	"
             src={ImgOne}
-            alt="Gudauri"
+            alt="Colour"
           />
-          <p className="font-bold">Gudauri</p>
+          <p className="font-bold">Colour</p>
         </section>
         <section>
           <img
             className="max-w-full w-56 h-52 object-cover	"
             src={ImgTwo}
-            alt="Sighnaghi"
+            alt="Framing"
           />
-          <p className="font-bold">Sighnaghi</p>
+          <p className="font-bold">Framing</p>
         </section>
         <section>
           <img
             className="max-w-full w-56 h-52 object-cover	"
             src={ImgThree}
-            alt="Stepantsminda"
+            alt="Emotion"
           />
-          <p className="font-bold">Stepantsminda</p>
+          <p className="font-bold">Emotion</p>
         </section>
         <section>
           <img
             className="max-w-full w-56 h-52 object-cover	"
             src={ImgFour}
-            alt="Batumi"
+            alt="MotionBlur"
           />
-          <p className="font-bold">Batumi</p>
+          <p className="font-bold">MotionBlur</p>
         </section>
       </section>
     </article>

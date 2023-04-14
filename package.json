@@ -23,11 +23,11 @@
     "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "/travel-with-catherine",
+  "homepage": "/hgodisha16",
   "scripts": {
     "start": "craco start && postcss src/index.css -o public/index.css",
     "build": "craco build",
-    "deploy": "gh-pages -d build -r https://github.com/catherineisonline/travel-with-catherine",
+    "deploy": "gh-pages -d build -r https://github.com/catherineisonline/hgodisha16",
     "test": "craco test",
     "eject": "react-scripts eject"
   },

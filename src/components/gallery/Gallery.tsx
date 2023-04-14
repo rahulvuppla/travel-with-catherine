@@ -15,7 +15,7 @@ const Gallery = () => {
   };
 
   useEffect(() => {
-    document.title = "Blog | Pizza Time";
+    document.title = "Blog |  Time";
     setEndOffset(itemOffset + 12);
     setcurrentBlogPosts([...GalleryData].slice(itemOffset, endOffset));
   }, [setEndOffset, endOffset, itemOffset]);

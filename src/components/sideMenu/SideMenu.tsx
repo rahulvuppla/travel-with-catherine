@@ -37,12 +37,12 @@ const SideMenu = () => {
         } flex-col items-center fixed mt-60 text-2xl gap-5 text-slate-600 hidden md:flex`}
       >
         <h1 className="sm:text-xl md:text-3xl text-center uppercase text-black font-light">
-          Travel with<br></br>
-          <span className="font-semibold font-namefont">Catherine</span>
+          Harshith <br></br>
+          <span className="font-semibold font-namefont">Godishala</span>
         </h1>
         <NavLink
           className="hover:text-blue-600 smooth-transition text-xl"
-          to="/travel-with-catherine"
+          to="/hgodisha16"
           onClick={() => {
             RemoveMenu()
           }}
@@ -82,11 +82,11 @@ const SideMenu = () => {
         <Socials />
         <a
           className="text-sm"
-          href="https://github.com/catherineisonline/travel-with-catherine"
+          href="https://github.com/ineisonline/hgodisha16"
           target="_blank"
           rel="noreferrer"
         >
-          &copy; 2022-2023 by Catherine
+          &copy; 2022-2023 by Harshith Godishala
         </a>
       </nav>
     </header>

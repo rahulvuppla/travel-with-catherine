@@ -1,50 +1,14 @@
-// import { useState } from 'react'
+import { useState } from 'react'
+import "./stylecontainer.css"
 
 const ContactForm = () => {
-  // const [formValue, setFormValue] = useState({
-  //   firstname: '',
-  //   lastname: '',
-  //   email: '',
-  //   message: '',
-  // })
-  // const [formError, setFormError] = useState({})
-  // const [submit, setSubmit] = useState(false)
+  // The selected drink
+  const [selectedDrink, setSelectedDrink] = useState<String>();
 
-  // const handleSubmit = (e: React.SyntheticEvent) => {
-  //   e.preventDefault()
-  //   setFormError(validateForm(formValue))
-  // }
-  // const handleValidation = async (e: React.SyntheticEvent) => {
-  //   // const { name, value } = e.target
-  //   const target = e.target as typeof e.target & {
-  //     email: { value: string }
-  //     password: { value: string }
-  //   }
-  //   setFormValue({ ...formValue, [name]: value })
-  // }
-
-  // const validateForm = (value: Object) => {
-  //   let errors = {}
-  //   const emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/
-  //   if (!value.firstname) {
-  //     errors.firstname = 'Please enter your firstname'
-  //   }
-  //   if (!value.lastname) {
-  //     errors.lastname = 'Please enter your lastname'
-  //   }
-
-  //   if (!value.email) {
-  //     errors.email = 'Please enter your email'
-  //   } else if (!emailRegex.test(value.email)) {
-  //     errors.email = 'Please enter valid email'
-  //   }
-  //   if (!value.message) {
-  //     errors.message = 'Please write a message'
-  //   }
-
-  //   return errors
-  // }
-
+  // This function will be triggered when a radio button is selected
+  const radioHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSelectedDrink(event.target.value);
+  };
   return (
     <form className="w-full max-w-lg">
       <div className="flex flex-wrap -mx-3 mb-6">
@@ -89,6 +53,53 @@ const ContactForm = () => {
           ></input>
         </div>
       </div>
+      <div className="flex flex-wrap -mx-3 mb-6 ">
+        <div className="w-full px-3">
+          <fieldset>
+            <legend>Is Your Shoot For Business or Personal?</legend>
+            <p>
+            <input type="radio" name="drink" value="Business" id="Business" onChange={radioHandler}/>
+            <label htmlFor="Business">Business</label>
+            </p>
+            <p>
+            <input type="radio" name="drink" value="Personal" id="Personal" onChange={radioHandler}/>
+            <label htmlFor="Personal">Personal</label>              </p>
+            </fieldset>
+            {selectedDrink && <h2>{selectedDrink}</h2>}
+        </div>
+      </div>
+      <div className="flex flex-wrap -mx-3 mb-6 ">
+        <div className="w-full px-3">
+          <fieldset>
+            <legend>What do you need to shoot?</legend>
+            <p>
+            <input type="Checkbox" name="drink" value="Business" id="Business" />
+            <label htmlFor="Business">Portrait</label>
+            </p>
+            <p>
+              <input type="Checkbox" name="drink" value="Personal" id="Personal" />
+              <label htmlFor="Personal">Family</label>             
+            </p>
+            <p>
+              <input type="Checkbox" name="drink" value="Personal" id="Personal" />
+              <label htmlFor="Personal">Graduation</label>             
+            </p>
+            <p>
+              <input type="Checkbox" name="drink" value="Personal" id="Personal" />
+              <label htmlFor="Personal">Party</label>             
+            </p>
+            <p>
+              <input type="Checkbox" name="drink" value="Personal" id="Personal" />
+              <label htmlFor="Personal">Wedding</label>             
+            </p>
+            <p>
+              <input type="Checkbox" name="drink" value="Personal" id="Personal" />
+              <label htmlFor="Personal">Engagement</label>             
+            </p>
+            </fieldset>
+        </div>
+      </div>
+        
       <div className="flex flex-wrap -mx-3 mb-6">
         <div className="w-full px-3">
           <label
